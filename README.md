@@ -48,7 +48,7 @@ naudotas `std::vector` , o failai studentas100000.txt ir studentas1000000.txt be
   * `Copy konstruktorius` <br>
   *  `Copy assignment operatorius` <br>
   *  `Destruktorius `<br>
-  
+  ![Rule of three](rot.png)
 ---
 ### Įvesties ir išvesties metodai: <br>
 * #### Įvesties metodai: <br>
@@ -57,4 +57,10 @@ naudotas `std::vector` , o failai studentas100000.txt ir studentas1000000.txt be
   - `StudentuSarG(int n, int m)`- naudojamas automatiniam duomenų generavimui failuose (nenaudoja studentų klasės) <br>
 * #### Išvesties metodai: <br>
   -`IrasytiIFaila(const string& failoVardas, const Container& studentai`- skirtas duomenų išvedimui į failą <br>
+---
+### Operatorių perdengimas <br>
+*Įvesties operatorius `operator>>` - leidžia nuskaityti Studentas objektą naudojant `cin >> s;` arba nuskaitymą iš failo. <br>
+*Išvesties operatorius `operator<<` - leidžia patogiai išvesti studento duomenis naudojant `cout << s;`. <br>
+![Operator](op.png)
+
 ---
