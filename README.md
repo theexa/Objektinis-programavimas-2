@@ -37,3 +37,19 @@ naudotas `std::vector` , o failai studentas100000.txt ir studentas1000000.txt be
 * `.exe` failo dydis mažėja naudojant -O1 ir -O2, tačiau -O3 vėl padidėja
 * failo dydis nesiskiria nau naudojamo duomenų kiekio
 ---
+## Programos aprašymas v1.2
+---
+### Pridėta rule of three: <br>
+  * `Copy konstruktorius` <br>
+  *  `Copy assignment operatorius` <br>
+  *  `Destruktorius `<br>
+  
+---
+### Įvesties ir išvesties metodai: <br>
+* #### Įvesties metodai: <br>
+  - `RanksinisIvedimas()`- naudojamas duomenų įvedimui ranka su `operator>>` <br>
+  - `SkaitytiIsFailo(const std::string& failas, Container& Grupe)` - naudojamas duomenų nuskaitymui iš failo , Copy konstruktorius `push_back`  <br>
+  - `StudentuSarG(int n, int m)`- naudojamas automatiniam duomenų generavimui failuose (nenaudoja studentų klasės) <br>
+* #### Išvesties metodai: <br>
+  -`IrasytiIFaila(const string& failoVardas, const Container& studentai`- skirtas duomenų išvedimui į failą <br>
+---
