@@ -64,3 +64,10 @@ naudotas `std::vector` , o failai studentas100000.txt ir studentas1000000.txt be
 ![Operator](op.png)
 
 ---
+## Programos aprašymas v1.5
+
+---
+
+Padalinome turėtą klase ` Studentas ` padalinome į dvi naujas klases: ` Zmogus ` ir ` Studentas `, čia ` Zmogus ` yra abstrakti klasė, jos objektų negalime kurti.
+![Class Zmogus](class.png)
+
