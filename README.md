@@ -58,7 +58,12 @@ Pridėjome galimybe vartotojui pasirinkti su kokiais konteineriais jis nori, kad
 ### v1.0
 Pridėjome galimybę vartotojui pasirinkti studentų skaidymo strategiją (iš trijų galimų).
 ### v1.1
-Pridejome klases
+Pridejome klases.
+### v1.2
+Pridejome 'Rule of three'. <br>
+Ir pridejome įvesties ir išvesties operatoriu perdengimą.
+### v1.5
+Padalinome turėtą klase ` Studentas ` padalinome į dvi naujas klases: ` Zmogus ` ir ` Studentas `, čia ` Zmogus ` yra abstrakti klasė, jos objektų negalime kurti.
 
 ---
 ## Testavimai:
