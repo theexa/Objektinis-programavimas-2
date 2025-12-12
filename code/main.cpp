@@ -1,5 +1,39 @@
 #include "mylib.h"
 
+void printTestRow(const std::string& name, bool ok) {
+    std::cout << std::left << std::setw(28) << name
+              << "| " << (ok ? "+" : "-") << "\n";
+}
+
+void ROT() {
+    cout << "Rule of three testavimas" << endl;
+    cout << "-----------------------------------" << endl;
+    //Default konstruktorius
+    Studentas s1;
+    bool okDefault = true;
+
+    //  Copy konstruktorius
+    s1.setVardas("Jonas");
+    s1.setPavarde("Jonaitis");
+    Studentas s2(s1);
+    bool okCopyCtor = (s2.getVardas() == s1.getVardas() && s2.getPavarde() == s1.getPavarde());
+
+    // Copy assignment operatorius
+    Studentas s3;
+    s3 = s1;
+    bool okCopyAssign = (s3.getVardas() == s1.getVardas() && s3.getPavarde() == s1.getPavarde());
+
+    //  Destruktorius
+    
+    bool okDtor = true;
+
+    // Lentelė
+    printTestRow("Default konstruktorius", okDefault);
+    printTestRow("Copy konstruktorius", okCopyCtor);
+    printTestRow("Copy assignment operatorius", okCopyAssign);
+    printTestRow("Destruktorius", okDtor);
+}
+
 int main() {
     int konteinerioPasirinkimas, strategijosPasirinkimas;
     int testuKiekis = 5;
@@ -135,6 +169,6 @@ int main() {
     cout << "-----------------------------------" << endl;
     cout << "Vidutinis laikas: " << std::fixed << std::setprecision(6) << (suma / testuKiekis) << " s" << endl;
     cout << "Bendras laikas: " << std::fixed << std::setprecision(6) << suma << " s" << endl;
-    
+    ROT();
     return 0;
 }
