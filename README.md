@@ -2,7 +2,8 @@
 ## Programos aprašymas v2.0
 Pridėjome html dokumentaciją. 
 Pridejome Unit test naudojan `doctest` framework
-
+![DocTest](photo/doct.png)
+  
 ---
 ## Programos spartos analizė v1.1
 Laiko testavimas atliktas lyginant struktūros ir klasės veikimą <br>
@@ -53,7 +54,7 @@ naudotas `std::vector` , o failai studentas100000.txt ir studentas1000000.txt be
   * `Copy konstruktorius` <br>
   *  `Copy assignment operatorius` <br>
   *  `Destruktorius `<br>
-  ![Rule of three](rot.png)
+  ![Rule of three](photo/rot.png)
 ---
 ### Įvesties ir išvesties metodai: <br>
 * #### Įvesties metodai: <br>
@@ -66,7 +67,7 @@ naudotas `std::vector` , o failai studentas100000.txt ir studentas1000000.txt be
 ### Operatorių perdengimas <br>
 *Įvesties operatorius `operator>>` - leidžia nuskaityti Studentas objektą naudojant `cin >> s;` arba nuskaitymą iš failo. <br>
 *Išvesties operatorius `operator<<` - leidžia patogiai išvesti studento duomenis naudojant `cout << s;`. <br>
-![Operator](op.png)
+![Operator](photo/op.png)
 
 ---
 ## Programos aprašymas v1.5
@@ -74,5 +75,5 @@ naudotas `std::vector` , o failai studentas100000.txt ir studentas1000000.txt be
 ---
 
 Padalinome turėtą klase ` Studentas ` padalinome į dvi naujas klases: ` Zmogus ` ir ` Studentas `, čia ` Zmogus ` yra abstrakti klasė, jos objektų negalime kurti.
-![Class Zmogus](class.png)
+![Class Zmogus](photo/class.png)
 
