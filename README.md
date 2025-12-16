@@ -1,6 +1,6 @@
 # Objektinis-programavimas-2
 ## Programos aprašymas v2.0
-Pridėjome html dokumentaciją. 
+Pridėjome html dokumentaciją.<br> 
 Pridejome Unit test naudojan `doctest` framework
 ![DocTest](photo/doct.png)
   
