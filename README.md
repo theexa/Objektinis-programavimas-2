@@ -1,4 +1,9 @@
 # Objektinis-programavimas-2
+## Programos aprašymas v2.0
+Pridėjome html dokumentaciją. 
+Pridejome Unit test naudojan `doctest` framework
+
+---
 ## Programos spartos analizė v1.1
 Laiko testavimas atliktas lyginant struktūros ir klasės veikimą <br>
 naudotas `std::vector` , o failai studentas100000.txt ir studentas1000000.txt bei greičiausia trečia strategija. 
